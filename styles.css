@@ -1,0 +1,14 @@
+
+    body {
+      text-align: center; 
+      color: black;
+      font-family: helvetica;
+    }
+    header strong {
+      font-size: 30px;
+    }
+
+    img {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
