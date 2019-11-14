@@ -2,7 +2,7 @@
 <html lang="en-US">
     <head>
         <title>
-		Clear Shape Sprint Report 1 
+		Clear Shape Sprint Report
 		</title>
         <link rel="stylesheet"
         href="styles.css">
@@ -36,6 +36,94 @@ While the Homepage and About Me page was relatively straightforward, our develop
 <p> 3.	API infrastructure for event location and directions </p>
 <p> 4.	Number of registered attendess for each event </p>
 While we have yet to have a detailed discussion about what exactly to build for the next sprint, we will likely focus on the first 3 stories given in the above list because those are cruical basic functions for our website. After that we will then move onto more sophisticated, nice to have, features for the third sprint. We will also use this upcoming sprint to learn more about creating API infrastructure and creating RSVP rules such as not allowing people to register after the deadline.
+
+</p>
+
+
+
+<p>
+
+        <header>
+       <strong>  Clear Shape Sprint Report 2 </strong> 
+      <p><center>November 9, 2019 <center></p>
+        </header>
+  
+
+    Team members: Jeff Gu (jeffrey.gu@yale.edu), Sean Ma (sean.ma@yale.edu), Tanya Sharma (tanya.sharma@yale.edu), Jen Fang (jen.fang@yale.edu)           
+<p>
+    <!-- Report text goes here -->
+
+    <!-- where burn down chart image goes  -->
+    <center> <img src="burndownchart2.jpeg" width="500" height="300"> <center>
+
+    <u>Sprint Completed Stories</u>
+
+<p> 1.  Display participants with RSVP function + Handle time </p>
+
+During this sprint, we were successful in adding most of the basic functionalities on the app. We can now create new events and have the data stored. Clicking on the name of the event leads us to the event page, which has its details, including the title, venue, date, time, support, etc. Users can now RSVP for events and their email address will get added to the list of registrants. They will also be able to see the full list of registrants before RSVP'ing. We have also been successful in displaying the time of the events on their respect event pages.
+
+<p> 2.  A/B test with "donate" and "support" </p>
+We want to know how people will react to two sentences: "want to donate" or "want to support", so we utilized A/B test to test these results. Google Optimize is a powerful and free platform to do this. We have successfully created the container and the A/B test experience, and link to our Google Analytics Property. It took us some time to add the Optimize snippet to our site and make the collection work. We are now waiting for users to visit and record them!
+
+As you can see from our burndown chart, during this sprint, we did not make any progress until the very last day of the sprint. This was because both of the stories in this sprint was rather difficult and complex. There was a lot of trial and error and research before we were able to complete the stories. Looking ahead to sprint 3, we would like to break stories up into more manageable sizes as to make steady progress thoroughout the sprint and be better about reassessing stories during the sprint to make sure they are of appropriate sizes (which we did not have time to do this sprint).
+
+<p> <u>Product Backlog</u></p> 
+<p> 1.  Add CSS for the whole page, like Team/company logo and presentation </p>
+<p> 2.  Deadline for RSVP    </p>
+<p> 3.  API infrastructure for event location and directions </p>
+<p> 4.  Number of registered attendees  for each event </p>
+We have finished the most difficult parts of this project, like record inputs and post them. For the next steps, we will focus on data monitoring of A/B test and some CSS styles. Also, we will then try moving onto more sophisticated features for the third sprint. We will also use the next sprint to learn more about creating API infrastructure and creating RSVP rules such as not allowing people to register after the deadline. 
+
+The second and third stories are most important to prioritize but depending on our bandwidth, we may have time to continue working on the first story as well. We had initially listed the second and third stories under sprint report 2 but given our focus on completing the most basic functionalities of the app, we moved them to sprint report 3. 
+
+We have already created the team logo, which we would like to display in the title bar as well as at the top of our homepage and the individual event pages. We will work on displaying the logo at these locations. We will also work on improving the overall styling and presentation of the app in the next sprint. 
+
+</p>
+
+
+        <header>
+       <strong>  Clear Shape Sprint Report 3 </strong> 
+      <p><center>November 13, 2019 <center></p>
+        </header>
+  
+
+    Team members: Jeff Gu (jeffrey.gu@yale.edu), Sean Ma (sean.ma@yale.edu), Tanya Sharma (tanya.sharma@yale.edu), Jen Fang (jen.fang@yale.edu)           
+<p>
+    <!-- Report text goes here -->
+
+    <!-- where burn down chart image goes  -->
+    <center> <img src="burndown-report-3.png" width="500" height="300"> <center>
+
+    <u>Sprint Completed Stories</u>
+<p> 1.  Made site more attractive by adding CSS and design elements </p>
+
+Now that we have the bones and skeleton of the website functioning, we moved on to design elements of the website. Prior to this, we used the styling that came with Kyle's HTML. Our goal was to create a very simple and user-friendly design and color scheme that highlights the important information and keeps distractions to a minimum. We wanted to create a sense of ease and lightness in using our website to communicate that event creation is simple, transparent, and lightweight.
+<p> 2.  Introduced Analytics into the site to track traffic </p>
+
+We added Google Analytics to our website so that we can begin tracking the traffic headed towards our site. We can use Google Analytics to identify how many users we receive, at what time we receive our users, and where our users are coming from. Additionally, this allows us to A/B test the wording of our donation/support link to understand consumer behavior when it comes to financially support the various events on the website. We foresee that we can expand this service to users of our site so that they, too, can know who is supporting their events.
+<p> 3.  Fixed issues with event creation </p>
+
+While we thought that the functionality of our event creation site was largely complete, we performed as a team a quality assurance check. A member of the team identified that we were incorrectly handling URL redirection. Previously, when a user created a new event, we did not redirect the user to the new event detail page. Instead, we kept the user on the event/new page, meaning any additional details (reservation details) would not be saved to the event structure. This means the user essentially cannot take any action on the page immediately following event creation. We fixed this bug by correctly handling the event creation action to redirect the user to the new event detail page.
+
+<p> 4.  Create site logo </p>
+
+During this sprint, we added a logo to strengthen our brand. Tanya is our resident design guru, and she went through the HTML templates that we had to create a consistent CSS styling across each of our pages (index, event details, event creation, and about us). She also created a logo for our page to further increase the sense of continuity a user gets while navigating among the various web pages. This not only increases our branding on the site but also created a rallying and identifying point for our team. 
+
+
+<p> 5.  A/B test with "donate" and "support" </p>
+We want to know how people will react to two sentences: "want to donate" or "want to support", so we utilized A/B test to drive these results. We performed some initial analysis on the results and spent time learning how to understand all that Google Optimize and Analytics has to offer. So far, it seems that we have about a 60-40 split in favor of "want to donate." We need to continue to monitor the data coming in to make sure we're correctly interpreting the results.
+
+
+<p> <u>Product Backlog</u></p> 
+<p> 1.  Continue to add CSS and design elements consistent with Material Design elements </p>
+<p> 2.  Add checks for bad inputs to prevent users to mistyping </p>
+<p> 3.  API infrastructure for event location and directions </p>
+<p> 4.  Number of registered attendees for each event </p>
+<p> 5.  Event description for each event </p>
+
+After fixing the bug and adding in CSS to stylize our website, we need to focus on refining the design elements of the website to make it as intuitive and user-friendly as possible. We aim for our design to portray how easy, simple, and lightweight creating events on our website is. To decrease the chance of errors and future bugs, we need to add testing scenarios and other checks to make sure users cannot input bad data.
+
+Additionally, we can embellish on the core functionality of our app by creating additional fields for event descriptions, directions, number of registered attendees, etc. These add value to our product that most event creators and attendees would find useful. 
 
 </p>
 
