@@ -127,5 +127,84 @@ Additionally, we can embellish on the core functionality of our app by creating 
 
 </p>
 
+
+        <header>
+       <strong>  Clear Shape Final Sprint Report </strong> 
+      <p><center>December 10, 2019 <center></p>
+        </header>
+  
+
+    Team members: Jeff Gu (jeffrey.gu@yale.edu), Sean Ma (sean.ma@yale.edu), Tanya Sharma (tanya.sharma@yale.edu), Jen Fang (jen.fang@yale.edu)           
+<p>
+    <!-- Report text goes here -->
+    <p>   </p>
+      <strong>  <p> <u>Burndown Chart for Full Project</u></p></strong> 
+    <!-- where burn down chart image goes  -->
+    <center> <img src="burndownfinal.png" width="500" height="300"> <center>
+
+   <p> <u><strong> Stories Completed this Sprint</strong> </u></p>
+
+<p> 1. Clean up JS, HTML, and CSS errors </p>
+
+Upon putting our app’s code through the grading code, we realized a few errors with our coding, for example, we had a few floating tags in HTML, did not have alternative tag for the visually impaired, and a few syntax and spelling errors. We worked on cleaning up these errors to make the code more functional for users. 
+
+<p> 2. Event API </p>
+To add the additional functionality of providing a JSON response for event data, we added an Event API. This set of endpoints return a list of events or an individual event in JSON form. This could allow us to build a new client in the future, like a mobile app for example. In addition, this also allows users that wish to pull data from our website and use it on their own websites to put a request through our API. 
+
+<p> 3. Bad user input error checking </p>
+To ensure that the inputs that users put into the app are valid, we put in data validation code to: 
+<ul> 
+    <li> Title: ensure the title must be more than 5 and fewer than 50 unicode characters </li>
+    <li> Location: ensure the location must be more than 5 and fewer than 50 unicode characters </li>
+    <li> Image: ensure image is a valid URL and one of the common image files types </li>
+    <li> Date: ensure date must be be in the format "2006-01-02T15:04" and also be in the future </li>
+
+<p> 4.  Style/branding </p>
+To enhance user experience for users using our site, we added additional CSS to our existing code to enhance the aesthetics of our app and clean up the presentation further. We did so by leveraging the Bootstrap CSS library available online and made changes to it as necessary.
+
+<p><u><strong> Google Analytics: A/B Testing of Donation</strong> </u></p>
+
+We used Google Optimize to run 4 A/B Test experiments, starting from Nov. 16, 2019. Each event has around 1,200 sessions over three weeks.
+
+<center> <img src="abtesting1.png" width="750" height="300"> <center>
+<p>We ran this A/B test by changing the word “support” in “Want to support” to “donate”, implemented this variation, and collected results by adding an Optimize snippet to our website. Through this, we were able to see which one gets a higher click-through rate to the donate page.</p>
+ 
+<p>Below is the Summary Card of one example, which shows an overview of the test and results. From the Summary Card, we can see that the new page (“donate”)  has improved 134%~292%, with 100% probability to outperform the original “support”. </p>
+
+<center> <img src="abtesting2.png" width="500" height="300"> <center>
+<p>The next card shows the Improvement overview. Compared with the original page with conversion rate 10.4%~16.6%, the conversion rate of the new page increased to 35.6%~44.6%.</p>
+
+<center> <img src="abtesting3.png" width="500" height="300"> <center>
+
+<p><u><strong> Google Analytics: Referral</strong> </u></p>
+<p> The 2 images below show information regarding the referral traffic. It seems that 42.70% of traffic comes from Yale Medical school, followed by Yale Search Page (22.36%), Yale Law School (21.46%), SOM (11.44%) and Yale Divinity School (2.04%). We may infer from this that of these websites, users on Yale Medical School are most interested in the activities posted on our website compared to the other schools.</p>
+
+<center> <img src="referral1.png" width="500" height="300"> <center>
+<center> <img src="referral2.png" width="500" height="300"> <center>
+
+<p><u><strong> Stories we would have liked to work on if we had more time
+
+</strong></u></p>
+
+<p> 1. Presentation </p>
+
+Under the limited time we had, we mainly focused on enhancing the core functionality of our product and were not left with much time to embellish it to enhance the aesthetics. If we had more time, that’s one thing we would have liked to work on more. 
+
+<p> 2. UX/UI </p>
+We would have liked to work on the UX/UI of the app to make the user interface more appealing and the user experience more pleasant. We would have also liked to work more on making the app more accessible for people with disabilities. 
+
+<p> 3. Redesign the workflow to make it simpler </p>
+If we had more time, we would like to gather user feedback to redesign the event booking workflow. Right now, searching for events for which you are registered, or for events which you are hosting, is difficult. We would like some sort of account, profile, or login systems to help a single user track his or her events and registrations.
+
+<p> 4. Gather more user feedback</p>
+So far, we have not been able to gather any user feedback on which features they might not like, which additional features they think are core to the app, or any other functionalities that we should add to ensure a better experience and ease of use for them. If we had more time, we would have liked to do A/B testing for more features, offer short surveys to users, and build in a functionality (ex: a contact page or a message board) for users to contact us with questions, comments, or concerns. 
+
+<p><u><strong> Final Reflection on the Project</strong> </u></p>
+<p>As you can see from our final full project burndown chart (at the beginning of this report) that we were much more successful in our last 2 sprints (sprint 3 and 4) in making steady progress towards completing user stories. As supposed to having to increase story points in the middle of sprint 1 (due to inaccurate estimates at the start of that sprint) and making no progress until the last day of sprint 2 (due to having created stories that were too big and complex), we've learned from the previous sprints and gotten much better at making more reasonable story point estimates and breaking up stories into more manageable size. </p>
+
+<p>Overall, we feel like we grew a lot as a team. Sean went from knowing nothing about Google Analytics to being able to help other teams troubleshoot. Tanya got the chance to practice website styling using CSS. Jen and Jeff switched roles between sprints so that they could gain experience acting as both the product owner and programmer for the project. We learned so much through the project from estimating story points, creating event API to, when all else fails, the importance of googling. </p>
+
+</p>
+
     </body>
 </html>
